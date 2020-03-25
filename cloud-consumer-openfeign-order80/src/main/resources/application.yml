@@ -1,0 +1,53 @@
+server:
+  port: 80
+#openfeign调用consul注册中心服务
+spring:
+  application:
+    name: consul-openfeign-server
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        register: true #不注册进consul,为了测试gateway（挡在最前面）
+
+
+# 设置feign客户端超时时间(由于 OpenFeign 的客户端负载均衡是通过 Ribbon 实现的)
+consul-provider-server: #指定某个服务，如果不指定就是调用所有的
+  ribbon:
+    # 指的是建立连接所用的时间,适用于网络状态正常的情况下,两端连接所用的时间
+    ReadTimeout: 5000
+    # 指的是建立连接后从服务器读取到可用资源所用的时间
+    ConnectTimeout: 5000
+
+#熔断器启用
+feign:
+  hystrix:
+    enabled: true
+
+#断路器的超时时间,被调服务响应超出熔断器时间，即便成功，消费端消息也是TIMEOUT,因为超过了timeoutInMilliseconds这个峰值，也会进行服务降级，
+#所以一般断路器的超时时间需要大于ribbon的超时时间。
+hystrix:
+  command:
+    default:
+      circuitBreaker: #设置熔断机制 在10000ms内10次访问有60%服务降级问题就会熔断
+        enabled: true
+        requestVolumeThreshold: 10
+        sleepWindowInMilliseconds: 10000
+        errorThresholdPercentage: 60
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            #服务的返回时间大于ribbon的超时时间，会触发重试
+            #默认=1000，太小
+            #@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1500")是不是一样的？
+            #这就是设置调用服务响应超时时间峰值，超过这时间就不等了，有效避免客户端CPU沾满
+            timeoutInMilliseconds: 6000
+
+logging:
+  level:
+    # feign日志以什么级别监控哪个接口
+    com.servyou.cloud.service.PaymentFeignService: debug
+
