@@ -19,4 +19,15 @@ spring:
           search-paths:
             - microservicecloud-config
       label: master
-
+  #整合消息总线Bus 刷新服务端发送消息到mq然后客户端再订阅
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#暴露监控断点 基于actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

@@ -6,3 +6,16 @@ spring:
       name: application
       profile: dev
       uri: http://localhost:3344 #配置中心地址
+  #默认就是这个可以不用配
+  rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+
+#暴露监控断点 基于actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

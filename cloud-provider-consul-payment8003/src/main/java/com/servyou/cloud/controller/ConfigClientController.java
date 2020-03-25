@@ -4,8 +4,8 @@ import com.servyou.cloud.pojo.CommonResult;
 import com.servyou.cloud.pojo.Payment;
 import com.servyou.cloud.service.PayMentService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,9 +17,10 @@ import javax.annotation.Resource;
  */
 @RestController
 @Slf4j
+@RefreshScope
 public class ConfigClientController {
 
-    @Value("${spring.datasource.username}")
+    @Value("${config.info}")
     private String username;
 
     @Resource
