@@ -1,0 +1,8 @@
+#####  用来读取config server 内容 优先级高于application.yml  #####
+spring:
+  cloud:
+    config:
+      label: master
+      name: application
+      profile: dev
+      uri: http://localhost:3344 #配置中心地址
