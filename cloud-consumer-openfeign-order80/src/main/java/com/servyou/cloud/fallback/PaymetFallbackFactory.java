@@ -19,6 +19,11 @@ public class PaymetFallbackFactory implements FallbackFactory<PaymentFeignServic
             public String paymentCircuitConsul(Integer id) {
                 return id + "不能为负数";
             }
+
+            @Override
+            public String zipkin() {
+                return "调用服务端zipkin失败";
+            }
         };
     }
 }

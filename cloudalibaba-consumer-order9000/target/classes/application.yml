@@ -1,0 +1,35 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: nacos-consumer-server
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+      #sentinel配置持久化配置进nacos
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: ${spring.application.name} #注意：要和nacos里一样
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+#消费者将要访问的服务地址（之前是写在类里用static final）
+service-url:
+  nacos-user-service: http://nacos-provider-server
+#开启feign对sentinel的支持
+feign:
+  sentinel:
+    enabled: true

@@ -11,6 +11,11 @@
 
     <artifactId>cloud-consumer-openfeign-order80</artifactId>
     <dependencies>
+        <!--微服务调用链路监控-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!--hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

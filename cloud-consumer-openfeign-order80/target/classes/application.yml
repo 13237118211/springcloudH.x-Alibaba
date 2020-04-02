@@ -10,6 +10,12 @@ spring:
       port: 8500
       discovery:
         register: true #不注册进consul,为了测试gateway（挡在最前面）
+  #调用链路监控
+  zipkin:
+    base-url: http://localhost:9411
+    sleuth:
+      sampler:
+        probability: 1 #采样率值介于0-1
 
 
 # 设置feign客户端超时时间(由于 OpenFeign 的客户端负载均衡是通过 Ribbon 实现的)
@@ -20,7 +26,7 @@ consul-provider-server: #指定某个服务，如果不指定就是调用所有�
     # 指的是建立连接后从服务器读取到可用资源所用的时间
     ConnectTimeout: 5000
 
-#熔断器启用
+#激活feign对hystrix的支持
 feign:
   hystrix:
     enabled: true

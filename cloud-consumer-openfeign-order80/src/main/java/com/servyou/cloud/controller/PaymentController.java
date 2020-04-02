@@ -1,9 +1,8 @@
 package com.servyou.cloud.controller;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.servyou.cloud.service.PaymentFeignService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,5 +31,11 @@ public class PaymentController {
     @RequestMapping(value = "consumer/payment/circuit/consul/{id}")
     public String paymentCircuitConsul(@PathVariable Integer id){
         return paymentFeignService.paymentCircuitConsul(id);
+    }
+
+    //测试zipkin
+    @GetMapping(value = "consumer/payment/zipkin")
+    public String zipkin(){
+        return paymentFeignService.zipkin();
     }
 }

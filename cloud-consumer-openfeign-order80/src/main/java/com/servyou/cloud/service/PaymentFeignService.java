@@ -3,6 +3,7 @@ package com.servyou.cloud.service;
 import com.servyou.cloud.fallback.PaymetFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -24,4 +25,7 @@ public interface PaymentFeignService {
 
     @RequestMapping(value = "payment/circuit/consul/{id}")
     String paymentCircuitConsul(@PathVariable("id") Integer id);
+
+    @GetMapping("payment/zipkin")
+    String zipkin();
 }

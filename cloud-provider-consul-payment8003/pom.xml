@@ -11,7 +11,11 @@
 
     <artifactId>cloud-provider-consul-payment8003</artifactId>
     <dependencies>
-
+        <!--微服务调用链路监控-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!--添加消息总线RabbitMQ支持-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

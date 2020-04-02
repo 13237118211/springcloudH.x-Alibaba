@@ -1,0 +1,29 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: cloud-stream-rabbitmq-consumer
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: studyExchange #指定要使用的Exchange的名称（要与output一样）
+          content-type: application/json
+          binder: defaultRabbit #指定要使用的binder对象（mq类型及配置）
+          group: consumerGroup #集群必须同组 一条消息只能被组内一人消费 避免重复消费
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        hostname: 127.0.0.1
+        service-name: ${spring.application.name}
