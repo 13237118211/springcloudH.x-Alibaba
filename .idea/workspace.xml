@@ -2,53 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d21e11-33d4-4348-9a64-8833e0e213e3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/message/InputStraemRabbit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain8803.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/servyou/cloud/message/InputStraemRabbit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/StreamRabbitProviderApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/controller/SendMessageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/IMessageProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/impl/MessageProviderImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/NacosConsumerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/NacosConsumerController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/SentinelController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/OpenFeignService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/fallback/OpenFeignServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/servyou/cloud/NacosProviderApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/servyou/cloud/controller/NacosProviderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/servyou/cloud/NacosProviderApplication9002.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/servyou/cloud/controller/NacosProviderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/pom.xml" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/controller/PaymentController.java" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/controller/PaymentController.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/fallback/PaymetFallbackFactory.java" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/fallback/PaymetFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/service/PaymentFeignService.java" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/service/PaymentFeignService.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/controller/PaymentController.class" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/controller/PaymentController.class" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/fallback/PaymetFallbackFactory$1.class" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/fallback/PaymetFallbackFactory$1.class" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/service/PaymentFeignService.class" afterPath="$PROJECT_DIR$/cloud-consumer-openfeign-order80/target/classes/com/servyou/cloud/service/PaymentFeignService.class" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java" afterPath="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order8000/target/classes/com/servyou/cloud/config/ApplicationConfig.class" afterPath="$PROJECT_DIR$/cloud-consumer-order8000/target/classes/com/servyou/cloud/config/ApplicationConfig.class" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment8003/pom.xml" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment8003/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/controller/PayMentController.java" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/controller/PayMentController.java" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment8003/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment8003/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-consul-payment8003/target/classes/com/servyou/cloud/controller/PayMentController.class" afterPath="$PROJECT_DIR$/cloud-provider-consul-payment8003/target/classes/com/servyou/cloud/controller/PayMentController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/SeataAccountApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/controller/AccountController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/dao/AccountDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/domain/Account.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/domain/CommonResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/AccountService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/impl/AccountServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/registry.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/SeataOrderApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/controller/OrderController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/dao/OrderDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/domain/CommonResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/domain/Order.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/AccountService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/OrderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/StorageService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/AccountServiceFallback.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/OrderServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/file.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/SeataStorageApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/controller/StorageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/dao/StorageDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/domain/CommonResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/domain/Storage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/StorageService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/impl/StorageServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/file.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/registry.conf" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/servyou/cloud/pojo/CommonResult.java" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/servyou/cloud/pojo/CommonResult.java" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/servyou/cloud/pojo/CommonResult.class" afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/servyou/cloud/pojo/CommonResult.class" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,6 +68,9 @@
     <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-consumer-order9000/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-sentinel-service8848/target/" />
+    <ignored path="$PROJECT_DIR$/seata-order-service2001/target/" />
+    <ignored path="$PROJECT_DIR$/seata-storage-service2002/target/" />
+    <ignored path="$PROJECT_DIR$/seata-account-service2003/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,30 +83,7 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SentinelController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/SentinelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding>
-                <element signature="e#1271#1272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,6 +96,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>timeoutInMilliseconds</find>
+      <find>undo</find>
     </findStrings>
     <dirStrings>
       <dir>D:\liying\MyProject\cloud\cloud-consumer-order8000\src\test\java\com\servyou</dir>
@@ -136,43 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-config-server3344/src/main/java/com/servyou/cloud/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/dao/ConsulPayMentDao.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/mapper/PayMentMapper.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/service/impl/PayMentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/ProviderConsulApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/controller/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/src/main/java/com/servyou/cloud/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config-server3344/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/StreamRabbitProviderApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/IMessageProvider.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/impl/MessageProviderImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/controller/SendMessageController.java" />
-        <option value="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain.java" />
-        <option value="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/message/InputStraemRabbit.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain8803.java" />
-        <option value="$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/service/PaymentFeignService.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/controller/PayMentController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/fallback/PaymetFallbackFactory.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/servyou/cloud/NacosProviderApplication.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/servyou/cloud/NacosProviderApplication9002.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/servyou/cloud/controller/NacosProviderController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8848/pom.xml" />
@@ -187,6 +127,43 @@
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/NacosConsumerController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-order9000/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/domain/Order.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/domain/CommonResult.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/domain/Storage.java" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/servyou/cloud/pojo/CommonResult.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/domain/Account.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/SeataStorageApplication.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/SeataOrderApplication.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/controller/StorageController.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/impl/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/dao/StorageDao.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/AccountServiceFallback.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/SeataAccountApplication.java" />
       </list>
     </option>
   </component>
@@ -211,7 +188,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seata-order-service2001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seata-order-service2001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -219,10 +206,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="592" />
+    <option name="y" value="-22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -242,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,8 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -278,16 +265,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.servyou.cloud.controller" />
       <recent name="com.servyou.cloud.config" />
+      <recent name="com.servyou.cloud.domain" />
+      <recent name="com.servyou.cloud.controller" />
       <recent name="com.servyou.cloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\liying\MyProject\cloud\seata-account-service2003\src\main\resources" />
+      <recent name="D:\liying\MyProject\cloud\seata-storage-service2002\src\main\resources" />
       <recent name="D:\liying\MyProject\cloud\cloudalibaba-provider-payment9001\src\main\resources" />
       <recent name="D:\liying\MyProject\cloud\cloudalibaba-consumer-order9000\src\main\resources" />
       <recent name="D:\liying\MyProject\cloud\cloudalibaba-provider-payment9002\src\main\resources" />
-      <recent name="D:\liying\MyProject\cloud\cloud-stream-rabbitmq-consumer8803\src\main\java" />
-      <recent name="D:\liying\MyProject\cloud\cloud-stream-rabbitmq-consumer8803\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,9 +294,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.29453552" />
+    <option name="contentProportion" value="0.2726776" />
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.SeataOrderApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -405,17 +393,6 @@
       <module name="cloud-consumer-order8000" />
       <envs />
     </configuration>
-    <configuration name="OrderOpenFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.servyou.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.OrderOpenFeignApplication" />
-      <module name="cloud-consumer-openfeign-order80" />
-      <envs />
-    </configuration>
     <configuration name="PayMentAppliction8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.PayMentAppliction8001" />
@@ -430,15 +407,37 @@
       <module name="cloud-provider-payment8002" />
       <envs />
     </configuration>
-    <configuration name="ProviderConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SeataAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.servyou.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.ProviderConsulApplication" />
-      <module name="cloud-provider-consul-payment8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.SeataAccountApplication" />
+      <module name="seata-account-service2003" />
+      <envs />
+    </configuration>
+    <configuration name="SeataOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.servyou.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.SeataOrderApplication" />
+      <module name="seata-order-service2001" />
+      <envs />
+    </configuration>
+    <configuration name="SeataStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.servyou.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servyou.cloud.SeataStorageApplication" />
+      <module name="seata-storage-service2002" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -474,24 +473,26 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="10">
+    <list size="11">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.NacosConsumerApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.PayMentAppliction8001" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaAppliction7001" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.PayMentAppliction8002" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.OrderApplication8000" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.EurekaAppliction7002" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ProviderConsulApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.OrderOpenFeignApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication9002" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication9002" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.SeataOrderApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SeataStorageApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SeataAccountApplication" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication9002" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.OrderOpenFeignApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ProviderConsulApplication" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SeataAccountApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SeataOrderApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SeataStorageApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication9002" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.NacosProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +529,9 @@
       <workItem from="1585447580553" duration="3110000" />
       <workItem from="1585534035435" duration="1862000" />
       <workItem from="1585620550626" duration="11021000" />
-      <workItem from="1585792330192" duration="7516000" />
+      <workItem from="1585792330192" duration="7862000" />
+      <workItem from="1585880931714" duration="1797000" />
+      <workItem from="1586137433042" duration="21660000" />
     </task>
     <servers />
   </component>
@@ -565,7 +568,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132246000" />
+    <option name="totallyTimeSpent" value="156049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -587,12 +590,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10161663" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38869664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26659527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -609,6 +612,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -619,311 +625,308 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/IMessageProvider.java">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/file.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="-162">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain.java">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/domain/Storage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="648">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/servyou/cloud/pojo/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/service/impl/MessageProviderImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="351">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/java/com/servyou/cloud/message/InputStraemRabbit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/servyou/cloud/message/InputStraemRabbit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/servyou/cloud/StreamRabbitConsumerMain8803.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stram-rabbitmq-consumer8802/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/pom.xml">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/domain/CommonResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="47" selection-end-column="19" />
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/servyou/cloud/NacosProviderApplication9002.java">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/StreamRabbitProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-ribbitmq-provider8801/src/main/java/com/servyou/cloud/controller/SendMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order8000/src/main/java/com/servyou/cloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-server3344/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/domain/CommonResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-consul-payment8003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="226">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/StorageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="42" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8848/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-consul-payment8003/src/main/java/com/servyou/cloud/controller/PayMentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="243">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/service/PaymentFeignService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        <state relative-caret-position="210">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/fallback/PaymetFallbackFactory.java">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="955">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="351">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-openfeign-order80/src/main/java/com/servyou/cloud/OrderOpenFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/SeataStorageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#517#518#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <marker date="1586153185482" expanded="true" signature="287:348" ph="insert into t_order... " />
+            <marker date="1586153185482" expanded="true" signature="287:410" ph="insert into t_order... " />
+            <marker date="1586153185482" expanded="true" signature="456:528" ph="UPDATE t_order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-consul-payment8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/controller/StorageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/dao/StorageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <marker date="1586157844312" expanded="true" signature="245:358" ph="update t_storage... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/servyou/cloud/service/impl/StorageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <marker date="1586158676356" expanded="true" signature="246:350" ph="update t_account... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="83" lean-forward="true" selection-start-line="8" selection-start-column="83" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/OpenFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/NacosConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/NacosConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -936,91 +939,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/servyou/cloud/controller/NacosProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/fallback/OpenFeignServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/servyou/cloud/controller/NacosProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/OpenFeignService.java">
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/SeataOrderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/NacosConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-          <folding>
-            <element signature="e#1008#1009#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="189">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/controller/SentinelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="297">
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/java/com/servyou/cloud/service/fallback/OpenFeignServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/AccountServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding>
-            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-order9000/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="130">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/servyou/cloud/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/config/DataSourceProxyAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/servyou/cloud/SeataAccountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding />
         </state>
       </provider>
